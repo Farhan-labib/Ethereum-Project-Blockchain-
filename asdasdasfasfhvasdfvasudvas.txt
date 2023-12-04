@@ -6,4 +6,4 @@
 <script src="js/truffle-contract.js"></script>
 
 
-https://drive.google.com/file/d/1TZXcF_raq2_rk1ilMf0UzzAwkY3oiKDd/view
+https://chat.openai.com/share/dfaf461c-7545-4dcd-b30b-2bd629c01cc5
