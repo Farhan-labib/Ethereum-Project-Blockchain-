@@ -4,3 +4,6 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/web3.min.js"></script>
 <script src="js/truffle-contract.js"></script>
+
+
+https://drive.google.com/file/d/1TZXcF_raq2_rk1ilMf0UzzAwkY3oiKDd/view
