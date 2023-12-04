@@ -1,0 +1,47 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missing Diaries</title>
+</head>
+<body>
+    <h1>Missing Diaries DApp</h1>
+    <form id="missingForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="age">Age:</label>
+        <input type="number" id="age" required>
+        <label for="height">Height:</label>
+        <input type="number" id="height" required>
+        <label for="status">Status:</label>
+        <select id="status" required>
+            <option value="missing">Missing</option>
+            <option value="found">Found</option>
+        </select>
+        <label for="description">Description:</label>
+        <textarea id="description" required></textarea>
+        <label for="division">Division:</label>
+        <input type="text" id="division" required>
+        <label for="contactNumber">Contact Number:</label>
+        <input type="text" id="contactNumber" required>
+        <button type="button" id="addPersonBtn">Add Person</button>
+    </form>
+
+    <hr>
+
+    <h2>Search Missing People</h2>
+    <label for="searchDivision">Search by Division:</label>
+    <select id="searchDivision" onchange="searchMissingPeople()">
+        <option value="">All Divisions</option>
+        <option value="Dhaka">Dhaka</option>
+        <option value="Chittagong">Chittagong</option>
+        <!-- Add other divisions -->
+    </select>
+    <div id="result"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
